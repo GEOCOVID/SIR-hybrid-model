@@ -19,8 +19,9 @@
 
 ### Programa MATLAB
 
-Esse repositório contém os códigos em `MATLAB` desenvolvidos por @vivasm :octocat:. O repositório está dividido em:
+Esse repositório contém os códigos em `MATLAB` desenvolvidos por @vivasm :octocat: e @MateusSSilva. O repositório está dividido em:
 - [`data/`](data/) -> Dados de entrada para o modelo.
+- [`input/`](input/) - > Arquivos de Parâmetros do modelo.
 - [`src/`](src/) -> Códigos fonte em MATLAB.
 - [`results/`](results/) -> Arquivos de saída, separados por estados/região.
 - `RodaXX.m` -> São arquivos que executam todo o pipeline definindo as regiões/estados, parâmetros e arquivos de saída e entrada.
