@@ -1,10 +1,9 @@
-function BrasilUF(Tb,cen,resultPath,T)
+function BrasilUF(Tb,codTb,cen,resultPath,T)
 
 BRest=table('Size',[27*T*cen 8],...
     'VariableTypes',{'uint16','uint16','uint64','uint64','uint64','uint64','uint32','uint16'},...
     'VariableNames',{'UF','dia','S','I','R','I_Acum','MunI','cenario'});
 
-codTb=readtable('codBR.xlsx');
 num=length(Tb.dia)/cen;
 ind=1;
 for k=1:cen
