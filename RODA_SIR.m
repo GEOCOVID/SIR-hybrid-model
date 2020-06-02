@@ -42,7 +42,7 @@ disp('Exportando tabelas');
 outNameTb=[resultPath Titulo '_Mun.csv'];               % Report Brasil_mun.csv
 writetable(Tb,outNameTb,'Delimiter',',');
 
-BrasilUF(Tb,arqCod,numCenarios,resultPath,T);       % Report Brasil_UF.csv
+BrasilUF(Tb,readtable(arqCod),numCenarios,resultPath,T);       % Report Brasil_UF.csv
 
 BA=find(ismember(Tb.UF,29));                            % Report Bahia.csv
 BATable=Tb(BA,:);
