@@ -101,4 +101,4 @@ Onde **S** representa a população de suscetíveis à doença, **I** a populaç
 
 ### Licença
 
-Licenciado sob a [ainda sem licença]()
+Licenciado sob a [Licença MIT](LICENSE.txt)
