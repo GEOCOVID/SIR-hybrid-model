@@ -93,7 +93,7 @@ Onde **S** representa a população de suscetíveis à doença, **I** a populaç
 - @vivasm  
     Desenvolvedor inicial do Modelo
 
-- @MateusSSilva
+- @MateusSSilva  
     Desenvolvedor e mantenedor do Modelo
 
 - @bertolinocastro  

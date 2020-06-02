@@ -6,7 +6,7 @@ addpath('src')                                           % path de códigos-font
 
 arqState=['input' filesep 'states_summary_2020-03-26.csv'];      % arquivo com parametros dos estados
 arqCity=['input' filesep 'cities_summary_2020-03-26.csv'];       % arquivo com parametros e populacoes estimadas dos municipios
-lockMun=readtable(['data' filesep 'lock_19-04-20.xlsx']);       % arquivo com munic�pios com lock, caso vazio se aplica em todos
+lockMun=readtable(['data' filesep 'lock_BA_+pop.xlsx']);       % arquivo com munic�pios com lock, caso vazio se aplica em todos
 
 %%                       PAR�METROS DE VARIA��O
 
