@@ -91,7 +91,10 @@ Onde **S** representa a população de suscetíveis à doença, **I** a populaç
 ### Créditos
 
 - @vivasm  
-    Desenvolvedor do Modelo
+    Desenvolvedor inicial do Modelo
+
+- @MateusSSilva
+    Desenvolvedor e mantenedor do Modelo
 
 - @bertolinocastro  
     Estruturação e submissão ao GitHub.
